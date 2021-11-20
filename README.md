@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# tag_p1_unb
- Projeto 1 de Teoria e Aplicação de Grafos (TAG), disciplina ofertada na Universidade de Brasília (UnB) no semestre 2021.1. 
-=======
 # P1 (TAG - 2021.1 - 202033202): Algoritmo de Bron-Kerbosh
 Projeto 1 de Teoria e Aplicação de Grafos, disciplina ofertada na Universidade de Brasília (UnB) no semestre 2021.1.
 Desenvolvido por Gabriel Mendes Ciriatico Guimarães, de matrícula 202033202.
