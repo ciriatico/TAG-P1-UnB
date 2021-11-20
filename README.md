@@ -16,7 +16,7 @@ O algoritmo foi implementado utilizando um grafo representado por listas de adja
 
 ### Algoritmo sem pivotamento
 
-O pseudo código que serviu de base para a implementação do algoritmo de Bron-Kerbosh pode ser encontrado aqui, tendo sido disponibilizado no site OpenGenus IQ e podendo ser visto na abaixo:
+O pseudo código que serviu de base para a implementação do algoritmo de Bron-Kerbosh pode ser encontrado no <a href="https://iq.opengenus.org/bron-kerbosch-algorithm/">OpenGenus IQ</a> e podendo ser visto na abaixo:
 
 <pre><code>   BronKerbosch1(R, P, X):
        se P e X estão ambos vazios:
@@ -31,7 +31,7 @@ Na primeira iteração, portanto, temos os conjuntos R e X vazios, com P sendo a
 
 ### Algoritmo com pivotamento
 
-Para o algoritmo com pivotamento, foi utilizado pseudo código descrito em Brito e Santos (2011). O método de pivotamento escolhido foi o de grau máximo. Assim, cada iteração do algoritmo sem pivotamento agora recebe não passa para um vértice qualquer em P, e sim um pivô - no caso, o vértice de maior grau em P.
+Para o algoritmo com pivotamento, foi utilizado pseudo código descrito em <a href="http://www.din.uem.br/sbpo/sbpo2011/pdf/87964.pdf">Brito e Santos (2011)</a>. O método de pivotamento escolhido foi o de grau máximo. Assim, cada iteração do algoritmo sem pivotamento agora recebe não passa para um vértice qualquer em P, e sim um pivô - no caso, o vértice de maior grau em P.
 
 O pseudo código utilizado pode ser visto abaixo:
 
@@ -48,7 +48,7 @@ O pseudo código utilizado pode ser visto abaixo:
 
 O coeficiente médio de aglomeração de um grafo é a média de todos os coeficientes locais de aglomeração. Este, por sua vez, descreve a relação entre a quantidade de vizinhos de um vértice que são vizinhos entre si e o grau desse mesmo vértice. O cálculo do coeficiente local pode ser visto abaixo:
 
-
+<p align="center"><img src="media/c_equation.png" alt="coefficient_equation" style="width:10%;"/></p>
 
 Em que k é o grau do vértice v e n é o número de vizinhos de v que são vizinhos entre si.
 
@@ -67,8 +67,12 @@ A interface com o usuário é exibida através do terminal. Nele, quando o códi
 
 Nas figuras abaixos é possível ver capturas de tela de trechos cada uma dessas seções.
 
+<p align="center"><img src="media/iu_alg_sem_pivot.PNG" alt="iu_algorithm_without_pivot" style="width:55%;"/></p>
+
+<p align="center"><img src="media/iu_alg_com_pivot.PNG" alt="iu_algorithm_with_pivot" style="width:55%;"/></p>
+
+<p align="center"><img src="media/iu_coeff.PNG" alt="iu_coefficient_equation" style="width:45%;"/></p>
 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
->>>>>>> cfb8691232f14531f724aca3d08dc0e2ead2b0fb
